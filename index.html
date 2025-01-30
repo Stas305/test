@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Оставьте заявку</h1>
+        <form id="order-form">
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+    <script src="script.js"></script> <!-- Подключите файл JavaScript -->
+</body>
+</html>
